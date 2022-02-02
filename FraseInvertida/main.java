@@ -41,9 +41,7 @@ public class main {
 		int count = 0;
 		for(int i = 0; i< valorEntrada.length(); i++) {
 			
-			if(resultadoOrdenado[i] == resultadoInvertido[i]) {
-				//validar a quantidade de caracteres
-				count++;
+			// 
 			}
 		}
 			

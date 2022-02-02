@@ -17,12 +17,12 @@ public class main {
 		
 		String valorEntrada = in.nextLine();
 		
-		//Bora l·
+		//Bora l√°
 		//Em uma frase existe a quantidade de caracteres
 
 		Character[] resultadoOrdenado = new Character[valorEntrada.length()];
 		
-		//Preciso pegar e inserir cada posiÁ„o dentro de um array.
+		//Preciso pegar e inserir cada posi√ß√£o dentro de um array.
 		for(int i = 0; i < valorEntrada.length(); i++) {
 			resultadoOrdenado[i] = valorEntrada.charAt(i);
 		}
@@ -47,11 +47,7 @@ public class main {
 			}
 		}
 			
-		if(count > 0 && count == valorEntrada.length()) {
-			System.out.println("true");
-		}else if(valorEntrada.equals(' ') || count != valorEntrada.length()) {
-			System.out.println("false");
-		}
+		
 		
 		
 }}
